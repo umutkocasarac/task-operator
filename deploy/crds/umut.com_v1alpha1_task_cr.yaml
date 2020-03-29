@@ -1,0 +1,9 @@
+apiVersion: umut.com/v1alpha1
+kind: Task
+metadata:
+  name: example-task
+spec:
+  image: ukocasarac/factorial:3
+  factorial: 7
+status:
+  result: "not-created"
